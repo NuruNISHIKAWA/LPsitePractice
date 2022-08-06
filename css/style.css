@@ -98,18 +98,21 @@ dl {
 }
 
 dt {
-  border-bottom: 1px solid #ccc;
   float: left;
-  font-size: 10px;
-  margin: 20px 10px;
 }
 
-dd {
-  border-bottom: 1px solid　#ccc;
-  font-size:10px;
-  margin: 20px 10px;
-  margin-left: 100px;
 
+
+.d_border_init{
+border-top: 1px solid rgb(79, 77, 77);
+  border-bottom: 1px solid rgb(79, 77, 77);
+  padding: 2px 0px;
+}
+
+.d_border {
+  
+  border-bottom: 1px solid rgb(79, 77, 77);
+  padding: 2px 0px;
 }
 
 .label {
@@ -428,13 +431,24 @@ table{
   position: absolute;
   top: 60px;
     left: 35%;
-    border: 2px #ff0000 solid;
+   
 }
 
 td,
 th {
-  border: 2px #ff0000 solid;
+  
   padding: 5px 5px;
+}
+
+.table_border{
+  border: 2px solid #000000;
+  padding: 0px 40px 0px 0px;
+}
+
+.table_hborder {
+  border: 2px solid #000000;
+  background: #bdb8b8;
+  padding: 0px 20px;
 }
 
 .company_flex{
